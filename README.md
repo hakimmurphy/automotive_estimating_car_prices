@@ -59,4 +59,4 @@ with open('best_car_price_model.pkl', 'rb') as f:
 
 ## Author
 
-[Hakim Murphy]# automotive_estimating_car_prices
+Hakim Murphy

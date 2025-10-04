@@ -2,6 +2,8 @@
 
 Estimate used car prices for a local dealership using machine learning and feature engineering.
 
+---
+
 ## Project Structure
 
 ```
@@ -10,6 +12,8 @@ cars.csv                                # Dataset
 requirements.txt                        # Python dependencies
 best_car_price_model.pkl                # Saved trained model
 ```
+
+---
 
 ## Features
 
@@ -20,6 +24,8 @@ best_car_price_model.pkl                # Saved trained model
 - Model training and evaluation (Linear, Ridge, Lasso, Decision Tree, Random Forest, Gradient Boosting, XGBoost)
 - Hyperparameter tuning with GridSearchCV
 - Model saving for deployment
+
+---
 
 ## Getting Started
 
@@ -36,14 +42,20 @@ best_car_price_model.pkl                # Saved trained model
 4. **Dataset:**
    - The notebook expects a `cars.csv` file in the project root.
 
+--- 
+
 ## Usage
 
 - The notebook walks through the full workflow: loading data, cleaning, feature engineering, EDA, model training, evaluation, and saving the best model.
 - The trained model is saved as `best_car_price_model.pkl` and can be loaded for future predictions.
 
+---
+
 ## Requirements
 
 See [requirements.txt](requirements.txt).
+
+---
 
 ## Model Deployment
 
@@ -57,6 +69,12 @@ with open('best_car_price_model.pkl', 'rb') as f:
 # model.predict(...)
 ```
 
-## Author
+---
 
+## 📄 License
+MIT
+
+---
+
+## 🗣️ Author
 Hakim Murphy
